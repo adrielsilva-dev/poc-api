@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/adrielsilva/poc-v5/api/api.csproj": {}
+    "/Users/adrielsilva/poc-v5/poc-api/api.csproj": {}
   },
   "projects": {
-    "/Users/adrielsilva/poc-v5/api/api.csproj": {
+    "/Users/adrielsilva/poc-v5/poc-api/api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/adrielsilva/poc-v5/api/api.csproj",
+        "projectUniqueName": "/Users/adrielsilva/poc-v5/poc-api/api.csproj",
         "projectName": "api",
-        "projectPath": "/Users/adrielsilva/poc-v5/api/api.csproj",
+        "projectPath": "/Users/adrielsilva/poc-v5/poc-api/api.csproj",
         "packagesPath": "/Users/adrielsilva/.nuget/packages/",
-        "outputPath": "/Users/adrielsilva/poc-v5/api/obj/",
+        "outputPath": "/Users/adrielsilva/poc-v5/poc-api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/adrielsilva/.nuget/NuGet/NuGet.Config"
@@ -41,6 +41,10 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.20, )"
+            },
+            "Microsoft.AspNetCore.SignalR": {
+              "target": "Package",
+              "version": "[1.2.0, )"
             },
             "Microsoft.Azure.ServiceBus": {
               "target": "Package",
